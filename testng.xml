@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<listeners>
+    <listener class-name="com.automation.businesscomponents.Listener" />
+</listeners>
+  <test thread-count="5" name="Test" >
+	  
+	 
+    <classes>
+		
+      <class name="com.automation.businesscomponents.TestMe"/> 
+       <class name="com.automation.businesscomponents.Login"/> 
+       <class name="com.automation.businesscomponents.Home"/>
+         <class name="com.automation.businesscomponents.Cart"/> 
+        
+         
+      <class name="com.automation.SwagLab.AppTest"/>
+       
+      
+    </classes>
+    
+    
+  </test> <!-- Test     -->
+</suite> <!-- Suite -->

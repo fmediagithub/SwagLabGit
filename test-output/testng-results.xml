@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T18:25:29 IST" name="Suite" finished-at="2023-11-30T18:25:38 IST" duration-ms="8662">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T18:25:29 IST" name="Test" finished-at="2023-11-30T18:25:38 IST" duration-ms="8662">
+      <class name="com.automation.businesscomponents.Cart">
+        <test-method signature="checkOut()[pri:1, instance:com.automation.businesscomponents.Cart@1cfd1875]" started-at="2023-11-30T18:25:36 IST" name="checkOut" finished-at="2023-11-30T18:25:38 IST" duration-ms="1987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+      </class> <!-- com.automation.businesscomponents.Cart -->
+      <class name="com.automation.businesscomponents.Home">
+        <test-method signature="sortItemsByName()[pri:1, instance:com.automation.businesscomponents.Home@5167268]" started-at="2023-11-30T18:25:33 IST" name="sortItemsByName" finished-at="2023-11-30T18:25:34 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItemsByName -->
+        <test-method signature="sortItemsByPrice()[pri:2, instance:com.automation.businesscomponents.Home@5167268]" started-at="2023-11-30T18:25:34 IST" name="sortItemsByPrice" finished-at="2023-11-30T18:25:35 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItemsByPrice -->
+        <test-method signature="addItemToCart()[pri:3, instance:com.automation.businesscomponents.Home@5167268]" started-at="2023-11-30T18:25:35 IST" name="addItemToCart" finished-at="2023-11-30T18:25:36 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCart -->
+      </class> <!-- com.automation.businesscomponents.Home -->
+      <class name="com.automation.businesscomponents.TestMe">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.businesscomponents.TestMe@5454d35e]" started-at="2023-11-30T18:25:27 IST" name="setUp" finished-at="2023-11-30T18:25:29 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:com.automation.businesscomponents.TestMe@5454d35e]" started-at="2023-11-30T18:25:38 IST" name="quite" finished-at="2023-11-30T18:25:38 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- com.automation.businesscomponents.TestMe -->
+      <class name="com.automation.businesscomponents.Login">
+        <test-method signature="swagLabNavigation()[pri:0, instance:com.automation.businesscomponents.Login@320e400]" started-at="2023-11-30T18:25:29 IST" name="swagLabNavigation" finished-at="2023-11-30T18:25:31 IST" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swagLabNavigation -->
+        <test-method signature="login()[pri:1, instance:com.automation.businesscomponents.Login@320e400]" started-at="2023-11-30T18:25:31 IST" name="login" finished-at="2023-11-30T18:25:33 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.automation.businesscomponents.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

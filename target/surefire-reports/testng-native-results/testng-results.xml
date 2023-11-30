@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T18:28:48 IST" name="Surefire suite" finished-at="2023-11-30T18:28:48 IST" duration-ms="8">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T18:28:48 IST" name="Surefire test" finished-at="2023-11-30T18:28:48 IST" duration-ms="8">
+      <class name="com.automation.businesscomponents.TestMe">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.businesscomponents.TestMe@581ac8a8]" started-at="2023-11-30T18:28:46 IST" name="setUp" finished-at="2023-11-30T18:28:48 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:com.automation.businesscomponents.TestMe@581ac8a8]" started-at="2023-11-30T18:28:48 IST" name="quite" finished-at="2023-11-30T18:28:48 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- com.automation.businesscomponents.TestMe -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
