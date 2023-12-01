@@ -11,8 +11,8 @@
 		
       <class name="com.automation.businesscomponents.TestMe"/> 
        <class name="com.automation.businesscomponents.Login"/> 
-       <class name="com.automation.businesscomponents.Home"/>
-         <class name="com.automation.businesscomponents.Cart"/> 
+    <!--   <class name="com.automation.businesscomponents.Home"/>
+         <class name="com.automation.businesscomponents.Cart"/>   --> 
         
          
       <class name="com.automation.SwagLab.AppTest"/>
