@@ -2,34 +2,37 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-01T15:02:38 IST" name="Suite" finished-at="2023-12-01T15:02:52 IST" duration-ms="13892">
+  <suite started-at="2023-12-01T15:57:03 IST" name="Suite" finished-at="2023-12-01T15:57:06 IST" duration-ms="2768">
     <groups>
     </groups>
-    <test started-at="2023-12-01T15:02:38 IST" name="Test" finished-at="2023-12-01T15:02:52 IST" duration-ms="13892">
+    <test started-at="2023-12-01T15:57:03 IST" name="Test" finished-at="2023-12-01T15:57:06 IST" duration-ms="2768">
       <class name="com.automation.businesscomponents.TestMe">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.businesscomponents.TestMe@5a5338df]" started-at="2023-12-01T15:02:36 IST" name="setUp" finished-at="2023-12-01T15:02:38 IST" duration-ms="2108" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.businesscomponents.TestMe@5a5338df]" started-at="2023-12-01T15:57:01 IST" name="setUp" finished-at="2023-12-01T15:57:03 IST" duration-ms="2078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="quite()[pri:0, instance:com.automation.businesscomponents.TestMe@5a5338df]" started-at="2023-12-01T15:02:52 IST" name="quite" finished-at="2023-12-01T15:02:53 IST" duration-ms="449" status="PASS">
+        <test-method is-config="true" signature="quite()[pri:0, instance:com.automation.businesscomponents.TestMe@5a5338df]" started-at="2023-12-01T15:57:06 IST" name="quite" finished-at="2023-12-01T15:57:06 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quite -->
       </class> <!-- com.automation.businesscomponents.TestMe -->
       <class name="com.automation.businesscomponents.Login">
-        <test-method signature="swagLabNavigation()[pri:0, instance:com.automation.businesscomponents.Login@7db0565c]" started-at="2023-12-01T15:02:38 IST" name="swagLabNavigation" finished-at="2023-12-01T15:02:40 IST" duration-ms="1883" status="PASS">
+        <test-method signature="swagLabNavigation()[pri:0, instance:com.automation.businesscomponents.Login@7db0565c]" started-at="2023-12-01T15:57:03 IST" name="swagLabNavigation" finished-at="2023-12-01T15:57:05 IST" duration-ms="1821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swagLabNavigation -->
-        <test-method signature="login()[pri:1, instance:com.automation.businesscomponents.Login@7db0565c]" started-at="2023-12-01T15:02:40 IST" name="login" finished-at="2023-12-01T15:02:52 IST" duration-ms="11964" status="FAIL">
+        <test-method signature="login()[pri:1, instance:com.automation.businesscomponents.Login@7db0565c]" started-at="2023-12-01T15:57:05 IST" name="login" finished-at="2023-12-01T15:57:06 IST" duration-ms="909" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Testng test failed]]>
+              <![CDATA[expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Testng test failed
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 at org.testng.Assert.fail(Assert.java:111)
-at com.automation.base.LoginBase.loginSwag(LoginBase.java:38)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.automation.base.LoginBase.loginSwag(LoginBase.java:31)
 at com.automation.businesscomponents.Login.login(Login.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)

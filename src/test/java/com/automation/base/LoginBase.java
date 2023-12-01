@@ -1,5 +1,7 @@
 package com.automation.base;
 
+import static org.testng.Assert.fail;
+
 import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
@@ -26,6 +28,7 @@ public class LoginBase extends TestMe{
 		try {
 		Common.enterText(LoginObjects.INPUT_USER_NAME, Common.getDatFromExcel("user name"),"user name");
 		Common.enterText(LoginObjects.INPUT_PASSWORD, Common.getDatFromExcel("password"),"password");
+		Assert.assertFalse(true);
 		Common.clickElemnt(LoginObjects.BTN_LOGIN,"Login"); 	
 		
 			if(Common.checkElementpresence(HomeObjects.BTN_CART))
