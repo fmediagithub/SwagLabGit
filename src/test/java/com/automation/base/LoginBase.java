@@ -23,12 +23,12 @@ public class LoginBase extends TestMe{
 	Logger logger = LogManager.getLogger(LoginBase.class.getName());
 	
 	public static void loginSwag() throws IOException {
-		
+		try {
 		Common.enterText(LoginObjects.INPUT_USER_NAME, Common.getDatFromExcel("user name"),"user name");
 		Common.enterText(LoginObjects.INPUT_PASSWORD, Common.getDatFromExcel("password"),"password");
 		Common.clickElemnt(LoginObjects.BTN_LOGIN,"Login"); 	
-		try {
-			//if(Common.checkElementpresence(HomeObjects.BTN_CART))
+		
+			if(Common.checkElementpresence(HomeObjects.BTN_CART))
 				Common.pass("<b>user logged sucessfully</b>");
 			   
 			
