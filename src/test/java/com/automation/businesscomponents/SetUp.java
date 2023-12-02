@@ -22,7 +22,7 @@ public class SetUp {
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
 		
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.edgedriver().setup();
 		driver = new ChromeDriver(options);
 
 		wait = new WebDriverWait(driver, Duration.ofSeconds(5));
