@@ -14,6 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <maven.compiler.source>11</maven.compiler.source>
        <maven.compiler.target>11</maven.compiler.target>
+       <java.version>11</java.version> 
  <!--  Use the release flag only if you are using Java 9+  -->
  <!--  <maven.compiler.release>8</maven.compiler.release>  -->
        <!-- verbose is useful for debugging purposes -->
